@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+
+.login-wrapper{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(251, 255, 0);
+    text-align: center;
+    position: relative;
+    left: 470px;
+    top: 100px;
+    border-radius: 40px;
+    
+    
+}
+
+.login-wrapper-signup{
+    height: 530px;
+    width: 400px;
+    background-color: rgb(251, 255, 0);
+    text-align: center;
+    position: relative;
+    left: 470px;
+    top: 80px;
+    border-radius: 40px;
+    
+    
+}
+
+div > h3 {
+    padding: 35px 50px 20px 50px;
+    color: rgb(0, 0, 0);
+}
+
+div > form > input {
+    margin-top: 30px;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+    height: 30px;
+    border-radius: 25px;
+}
+
+div > img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.act-btn{
+    margin: 30px;
+}
+
+
+div.act-btn > button {
+    height: 30px;
+    width: 70px;
+    border-style: hidden;
+    text-align: center;
+    border-radius: 20px;
+    margin: 7px;
+    cursor: pointer;
+}
+
+
+div.act-btn > button[name="login"] {
+   background-color: rgba(204,153,204,1);
+}
+
+div.act-btn > button[name="signup"] {
+    background-color: rgba(153,204,153,1);
+ }
+
+div.act-btn > button[name="login"]:hover {
+    background-color: #800080;
+ }
+
+div.act-btn > button[name="signup"]:hover {
+    background-color: #008000;
+ }
+
+a{
+    text-decoration: none;
+    color: black;
+}
